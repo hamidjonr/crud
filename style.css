@@ -1,0 +1,99 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.edit__modal{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0,0.35) 0px 5px 15px;
+    background-color: rgba(63, 63, 63, 0.269);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__content{
+    position: relative;
+    padding: 30px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: rgba(100, 100,111,0.2) 0px 7px 29px 0px;
+}
+
+.modal__close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px;
+}
+#form{
+    display: flex;
+    gap: 10px;
+}
+.all{
+    max-width: 900px;
+    margin: auto;  
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+#inp{
+    width: 300px;
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid grey;
+}
+#creat{
+    width: 110px;
+    background-color: #0075FF;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+}
+#data{
+    display: flex;
+    max-width: 900px;
+    margin-top: 20px;
+    gap: 20px;
+}
+.data2{
+    width: 220px;
+    height: 220px;
+    border-radius: 15px;
+    background-color: lightcoral;
+}
+.data2 p{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 24px;
+
+}
+#edtfc,
+#deletfc{
+background-color: black;
+border: none;
+color: white;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+margin-top: 120px;
+float: right;
+font-size: 20px;
+margin-right: 10px;
+}
+#editInput{
+    width: 300px;
+    height: 20px;
+}
